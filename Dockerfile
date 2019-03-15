@@ -19,6 +19,3 @@ ENV CLIENT_ID "6019fe32384341dd9afa43cbb528b0ef"
 ENV	CLIENT_SECRET "77bad0174a2e4310a07a7237268c4f8e"
 
 USER node
-
-WORKDIR /containerapp/server
-CMD ["node","index.js"]
