@@ -1,6 +1,6 @@
 module.exports={
 	appConfig:{
-		appName:"array-web",
+		appName:"pharol-web",
 		senecaServices:{
 			clientTimeout:6*60*60*1000,
 			client:{

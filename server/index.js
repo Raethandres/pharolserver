@@ -3,7 +3,7 @@ const cluster=require("cluster");
 const config=require("getconfig");
 const misc=require("./src/misc");
 
-process.title="arrayweb";
+process.title="pharolweb";
 
 const utilities=misc.utilities;
 

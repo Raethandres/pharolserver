@@ -1,21 +1,13 @@
 {
-	"name":"array-web",
+	"name":"pharol-web",
 	"version":"0.1.1",
 	"description":"smart web",
 	"main":"index.js",
 	"scripts":{
 		"start":"node index.js"
 	},
-	"repository":{
-		"type":"git",
-		"url":"git+https://github.com/moadw/array-web.git"
-	},
 	"author":"MoaDW SAS",
 	"license":"ISC",
-	"bugs":{
-		"url":"https://github.com/moadw/array-web/issues"
-	},
-	"homepage":"https://github.com/moadw/array-web#readme",
 	"dependencies":{
 		"body-parser":"1.18.3",
 		"celebrate":"9.0.0",

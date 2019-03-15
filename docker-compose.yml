@@ -23,7 +23,9 @@ services:
 
 
 networks:
-  
+
   node-network:
-    external:
-      name: arraynetwork
+    name: arraynetwork
+    ipam:
+      config:
+        - subnet: "172.110.0.0/24"

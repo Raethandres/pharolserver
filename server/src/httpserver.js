@@ -92,7 +92,10 @@ app.use(function(request,response,next){
 	}
 })
 
-
+app.route("/")
+.get(function(request,response,next){
+	response.end("welcome");
+});
 
 app.use("/webapi",routes.webapi);
 
@@ -106,16 +109,7 @@ app.use(compression({
 		else return true;
 	}
 }))
-app.use(express.static("/containerapp/public/dist/array",{
-	index:"index.html",setHeaders:function(response,path,stat){
-		response.set("Content-Type",mime.getType(path)+"; charset=utf-8");
-	}
-}))
-app.use("/swaggerdocs",express.static("/containerapp/swagger-ui-3.16.0",{
-	index:"index.html",setHeaders:function(response,path,stat){
-		response.set("Content-Type",mime.getType(path)+"; charset=utf-8");
-	}
-}))
+
 
 
 app.route("*")

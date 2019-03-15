@@ -6,7 +6,7 @@ module.exports={
 	numberOfWorkers:"$NUMBER_OF_WORKERS::number",
 	webServer:{
 		endpointPort:"$SERVER_PORT::number",
-		applicationDomain:"array.com",
+		applicationDomain:"pharol.com",
 		cookieConfig:{secure:true,httpOnly:false,path:"/",maxAge:30*24*60*60*1000},
 	},
 	spotify:{
