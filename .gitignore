@@ -1,0 +1,15 @@
+*.log
+#*.env
+*.npm
+*.DS_Store
+*.editorconfig
+**/logs
+**/node_modules
+**/npm-debug.log
+public/dist
+public/tmp
+public/out-tsc
+public/src/app/**/*.map
+public/src/app/**/*.js
+.idea
+.vscode

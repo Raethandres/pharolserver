@@ -1,0 +1,16 @@
+module.exports={
+	production:true,
+	appVersion:"0.1.1",
+	secretKey1:"${SECRET_KEY_1}",
+	secretKey2:"${SECRET_KEY_2}",
+	numberOfWorkers:"$NUMBER_OF_WORKERS::number",
+	webServer:{
+		endpointPort:"$SERVER_PORT::number",
+		applicationDomain:"array.com",
+		cookieConfig:{secure:true,httpOnly:false,path:"/",maxAge:30*24*60*60*1000},
+	},
+	spotify:{
+		clientId:"${CLIENT_ID}",
+		clientSecret:"${CLIENT_SECRET}",
+	}
+}

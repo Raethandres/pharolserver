@@ -1,0 +1,40 @@
+{
+	"name":"array-web",
+	"version":"0.1.1",
+	"description":"smart web",
+	"main":"index.js",
+	"scripts":{
+		"start":"node index.js"
+	},
+	"repository":{
+		"type":"git",
+		"url":"git+https://github.com/moadw/array-web.git"
+	},
+	"author":"MoaDW SAS",
+	"license":"ISC",
+	"bugs":{
+		"url":"https://github.com/moadw/array-web/issues"
+	},
+	"homepage":"https://github.com/moadw/array-web#readme",
+	"dependencies":{
+		"body-parser":"1.18.3",
+		"celebrate":"9.0.0",
+		"compression":"1.7.3",
+		"connect-mongo":"2.0.1",
+		"consul":"0.34.1",
+		"cookie-parser":"1.4.3",
+		"express":"4.16.4",
+		"express-content-length-validator":"1.0.0",
+		"express-enforces-ssl":"1.1.0",
+		"express-session":"1.15.6",
+		"getconfig":"4.5.0",
+		"ip":"1.1.5",
+		"prerender-node":"3.2.1",
+		"request":"2.88.0",
+		"spotify-web-api-node": "^4.0.0"
+
+	},
+	"engines":{
+		"node":"10.14.2"
+	}
+}

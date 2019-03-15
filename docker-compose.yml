@@ -1,0 +1,29 @@
+#
+#
+
+version: "3.7"
+
+services:
+  
+  webserver:
+    init: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      node-network:
+        ipv4_address: "172.110.0.11"
+    ports:
+      - "8110:8110"
+    env_file:
+      - "app-test.env"
+    working_dir: /containerapp/server
+    command:
+      ["node","index.js"]
+
+
+networks:
+  
+  node-network:
+    external:
+      name: arraynetwork
